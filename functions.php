@@ -4,6 +4,19 @@
  * @subpackage HTML5_Boilerplate
  */
 
+// Adicionado por felipe
+define( 'TEMPPATH', get_bloginfo('stylesheet_directory'));
+define( 'IMAGES', TEMPPATH. "/images");
+add_theme_support('nav-menus');
+if (function_exists('register_nav_menus')) {
+    register_nav_menus(
+            array(
+                'main' => 'Main Nav'
+            )
+    );
+}
+// Fim do adicionado por felipe
+
 // Custom HTML5 Comment Markup
 function mytheme_comment($comment, $args, $depth) {
    $GLOBALS['comment'] = $comment; ?>
@@ -33,13 +46,16 @@ function mytheme_comment($comment, $args, $depth) {
 automatic_feed_links();
 
 // Widgetized Sidebar HTML5 Markup
-if ( function_exists('register_sidebar') ) {
-	register_sidebar(array(
-		'before_widget' => '<section>',
-		'after_widget' => '</section>',
-		'before_title' => '<h2 class="widgettitle">',
-		'after_title' => '</h2>',
-	));
+if (function_exists('register_sidebar')) {
+    register_sidebar(array(
+        'name' => __('Primary Sidebar', 'primary-sidebar'),
+        'id' => 'primary-widget-area',
+        'description' => __('The primary widget area', 'dir'),
+        'before_widget' => '<section>',
+        'after_widget' => '</section>',
+        'before_title' => '<h2 class="widgettitle">',
+        'after_title' => '</h2>',
+    ));
 }
 
 // Custom Functions for CSS/Javascript Versioning

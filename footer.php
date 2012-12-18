@@ -5,16 +5,20 @@
  */
 ?>
 
-  <footer>
-      <p>
+</div> <!--! end of #container -->
+<footer class="footer aligncenter clearfix">
+    <div class="footer_info alignleft">
+        <iframe width="400" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.br/maps?f=q&amp;source=s_q&amp;hl=pt-BR&amp;geocode=&amp;q=vi%C3%A7osa+alagoas&amp;aq=&amp;sll=-9.53333,-35.687113&amp;sspn=0.478753,0.727158&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Vi%C3%A7osa+-+Alagoas&amp;ll=-9.53304,-35.687027&amp;spn=0.478989,0.727158&amp;z=11&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com.br/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=&amp;q=vi%C3%A7osa+alagoas&amp;aq=&amp;sll=-9.53333,-35.687113&amp;sspn=0.478753,0.727158&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Vi%C3%A7osa+-+Alagoas&amp;ll=-9.53304,-35.687027&amp;spn=0.478989,0.727158&amp;z=11" style="color:#0000FF;text-align:left">Exibir mapa ampliado</a></small>
+    </div>
+    <div class="alignright" id="footer_sidebar"> Tags e num sei que mais...</div>
+    <div>
         <?php bloginfo('name'); ?> is proudly powered by
         <a href="http://wordpress.org/">WordPress</a>, and built using the <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>.
         <br /><a href="<?php bloginfo('rss2_url'); ?>">Entries (RSS)</a>
         and <a href="<?php bloginfo('comments_rss2_url'); ?>">Comments (RSS)</a>.
         <!-- <?php echo get_num_queries(); ?> queries. <?php timer_stop(1); ?> seconds. -->
-      </p>
-  </footer>
-</div> <!--! end of #container -->
+    </div>
+</footer>
 
   <!-- Javascript at the bottom for fast page loading -->
 
