@@ -5,7 +5,7 @@
  */
 ?>
 
-<footer class="footer aligncenter clearfix green-light">
+<footer class="footer aligncenter clearfix green-light-bg">
   
   <div class="alignleft dark-gray" id="footer_sitemap">
     <ul>
@@ -38,9 +38,11 @@
   
   <div class="alignright" id="footer_tags"> Nuvens de tags / Plugin</div>
   
-  <div id="footer_description" class="gray-light"> 
-      <span class="alignleft"> Futebol Clube Comercial de Viçosa </span> 
-      <span class="alignright"> Produzido por Tend </span> </div>
+      <div id="footer_description" class="gray-light-bg"> 
+          <span class="alignleft green"> Futebol Clube Comercial de Viçosa </span> 
+          <span class="alignright green"> Produzido por Tend </span> 
+      </div>
+  
   </div>
   <!--! end of #container --> 
   

@@ -65,11 +65,9 @@ body {
 }
 .logo {
 	width: 400px;
-	padding:0 0 0 3%;
+	padding: 0 0 0 3%;
 }
-
-#header{
-
+#header {
 }
 .ad-hearder {
 	border: 1px solid green;
@@ -87,25 +85,24 @@ body {
 	padding: 0;
 	margin: 3% 0;
 }
-.menu ul li{
+.menu ul li {
 	list-style: none;
 	display: inline;
-	padding:3% 5% 3% 0;
+	padding: 3% 5% 3% 0;
 }
-
 .menu a {
 	color: #fff;
 	background-color: #077345;
 	padding: 10px;
 	text-decoration: none;
-	font-weight:bold;
+	font-weight: bold;
 }
 .menu a:hover {
 	color: #077345;
 	background: #fff;
 	border: 2px solid #077345;
 	margin: -2px;
-	font-weight:bold;
+	font-weight: bold;
 }
 nav ul li {
 	display: inline;
@@ -118,14 +115,11 @@ nav ul li {
 .menu-item a:hover {
 	background-color: green;
 	color: white;
-	
 }
-
 #container, .footer {
 	max-width: 960px;
 	border-top: 10px solid #077345;
 	background-color: white;
-	
 }
 .left-col {
 	width: 70%;
@@ -142,19 +136,17 @@ nav ul li {
 .footer {
 	width: 100%;
 	clear: both;
-	
 }
 #footer_sitemap ul {
 	list-style: none;
 	width: 90px;
-	
 	float: left;
 	margin: 1% 0 2%;
 }
 #footer_sitemap ul li a {
 	text-decoration: none;
 	color: #333;
-	font-size:13px;
+	font-size: 13px;
 }
 #footer_sitemap ul li.title {
 	margin-left: -15px;
@@ -167,22 +159,17 @@ nav ul li {
 	margin: 1% 0 2%;
 }
 #footer_description {
-	
 	clear: both;
 	width: 100%;
 	position: relative;
 	padding: 8px 0px;
-	height:15px;
-	box-shadow:0 -2px 2px #FFF;
-	
+	height: 15px;
+	box-shadow: 0 -2px 2px #FFF;
 }
-#footer_description span{ 
-padding:0 20px;
-font-size:13px;
+#footer_description span {
+	padding: 0 20px;
+	font-size: 13px;
 }
-
-
-
 /*
 ==============
 
@@ -190,24 +177,36 @@ font-size:13px;
 		                       =================
 */
 
+/* Texto / fontes*/
 .green {
-	background: #077345;
 	color: #077345;
 }
 .green-light {
-	background: #cde3da;
-	color:#cde3da;
+	color: #cde3da;
 }
 .white {
 	color: #fff;
-	background:#fff;
 }
 .gray-dark {
 	color: #666;
-	background:#666;
 }
 .gray-light {
-	background: #eee;
-	color:#eee;
+	color: #eee
 }
+/* Backgrounds */
 
+.green-bg {
+	background: #077345;
+}
+.green-light-bg {
+	background: #cde3da;
+}
+.white-bg {
+	background: #fff;
+}
+.gray-dark-bg {
+	background: #666;
+}
+.gray-light-bg {
+	background: #eee
+}
