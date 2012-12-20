@@ -4,7 +4,7 @@ Theme URI: https://github.com/felipeluciani/fccomercial
 Description: Based on the <a href="http://html5boilerplate.com">HTML5 Boilerplate</a> and Bruce Lawson's <a href="http://html5doctor.com/designing-a-blog-with-html5/">Designing a Blog with HTML5</a>. The sole purpose of this theme is to save developers the time it takes to apply the HTML5 Boilerplate to WordPress. See the README for instructions. The "HTML5 Boilerplate" name is used with permission from Paul Irish.
 Version: 1.0
 Author: Felipe Luciani and Rodrigo Begoti
-Author URI: http://www.turismo.al.gov.br/
+Author URI: http://www.fccomercialdevicosa.com.br/
 Tags: white, two-columns
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -21,15 +21,12 @@ HTML Boilerplate styles can be found in the html5-boilerplate/css directory.
 	margin-left: auto;
 	margin-right: auto;
 }
-
 .alignleft {
 	float: left;
 }
-
 .alignright {
 	float: right;
 }
-
 .wp-caption {
 	border: 1px solid #ddd;
 	text-align: center;
@@ -41,25 +38,21 @@ HTML Boilerplate styles can be found in the html5-boilerplate/css directory.
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 }
-
 .wp-caption img {
 	margin: 0;
 	padding: 0;
 	border: 0 none;
 }
-
 .wp-caption-dd {
 	font-size: 11px;
 	line-height: 17px;
 	padding: 0 4px 5px;
 	margin: 0;
 }
-
 .sticky {
 	background: #f7f7f7;
 	padding: 0 10px 10px;
 }
-	
 .sticky h2 {
 	padding-top: 10px;
 }
@@ -67,73 +60,147 @@ HTML Boilerplate styles can be found in the html5-boilerplate/css directory.
     Nossos Códigos
 */
 body {
-    background-color: #DDDDDD;
-    color: green;
+	background-color: #DDDDDD;
+	color: green;
 }
 .logo {
-    width: 400px;
-}
-.ad-hearder {
-    border: 1px solid green;
-    width: 400px;
-    height: 50px;
-    vertical-align: middle;
-    margin: 40px 0 0 40px;
-}
-#navigation {
-    clear: both;
-    
-}
-.menu {
-    display: inline-block;
-    display: block;
-    list-style: none outside none;
-    padding: 0;
-    margin: 0;
-}
-nav ul li {
-    display: inline;
-}
-.menu-item a {
-    text-decoration: none;
-    padding: 7px 20px;
-    color: green;
-}
-.menu-item a:hover {
-    background-color: green;
-    color: white;
-}
-#container, .footer {
-    max-width: 920px;
-    border-top: 10px solid green;
-    background-color: white;
-    padding: 0 20px;
-}
-.left-col {
-    width: 70%;
-    float: left;
-}
-.right-col {
-    float: right;
-    width: 28%;
-    margin-left: 2%;
+	width: 400px;
+	padding:0 0 0 3%;
 }
 
+#header{
+
+}
+.ad-hearder {
+	border: 1px solid green;
+	width: 400px;
+	height: 50px;
+	vertical-align: middle;
+	margin: 40px 0 0 40px;
+}
+#navigation {
+	clear: both;
+}
+.menu {
+	display: inline-block;
+	display: block;
+	padding: 0;
+	margin: 3% 0;
+}
+.menu ul li{
+	list-style: none;
+	display: inline;
+	padding:3% 5% 3% 0;
+}
+
+.menu a {
+	color: #fff;
+	background-color: #077345;
+	padding: 10px;
+	text-decoration: none;
+	font-weight:bold;
+}
+.menu a:hover {
+	color: #077345;
+	background: #fff;
+	border: 2px solid #077345;
+	margin: -2px;
+	font-weight:bold;
+}
+nav ul li {
+	display: inline;
+}
+.menu-item a {
+	text-decoration: none;
+	padding: 7px 20px;
+	color: #077345;
+}
+.menu-item a:hover {
+	background-color: green;
+	color: white;
+	
+}
+
+#container, .footer {
+	max-width: 960px;
+	border-top: 10px solid #077345;
+	background-color: white;
+	
+}
+.left-col {
+	width: 70%;
+	float: left;
+}
+.right-col {
+	float: right;
+	width: 28%;
+	margin-left: 2%;
+}
 /*Implementar*/
 .wp-caption {
-    
 }
 .footer {
-    color: whitesmoke;
-    background-color: #000;
-    clear: both;
-    padding-top: 20px;
+	width: 100%;
+	clear: both;
+	
 }
-.footer_info {
-    width: 48%;
+#footer_sitemap ul {
+	list-style: none;
+	width: 90px;
+	
+	float: left;
+	margin: 1% 0 2%;
 }
-#footer_sidebar {
-    width: 50%;
-    height: 200px;
-    padding-left: 2%;
+#footer_sitemap ul li a {
+	text-decoration: none;
+	color: #333;
+	font-size:13px;
+}
+#footer_sitemap ul li.title {
+	margin-left: -15px;
+}
+#footer_sitemap {
+	width: 75%;
+}
+#footer_tags {
+	width: 25%;
+	margin: 1% 0 2%;
+}
+#footer_description {
+	border-top: 2px solid #fff;
+	clear: both;
+	width: 100%;
+	position: relative;
+	padding: 8px 0px;
+	height:15px;
+	
+}
+#footer_description span{ 
+padding:0 20px;
+font-size:13px;
+}
+
+
+
+/*
+==============
+
+ 		        CSS OO  Padrão
+		                       =================
+*/
+
+.green {
+	background: #077345;
+}
+.green-light {
+	background: #cde3da;
+}
+.white {
+	color: #fff;
+}
+.gray-dark {
+	color: #666
+}
+.gray-light {
+	background: #eee
 }
