@@ -167,12 +167,13 @@ nav ul li {
 	margin: 1% 0 2%;
 }
 #footer_description {
-	border-top: 2px solid #fff;
+	
 	clear: both;
 	width: 100%;
 	position: relative;
 	padding: 8px 0px;
 	height:15px;
+	box-shadow:0 -2px 2px #FFF;
 	
 }
 #footer_description span{ 
@@ -191,16 +192,22 @@ font-size:13px;
 
 .green {
 	background: #077345;
+	color: #077345;
 }
 .green-light {
 	background: #cde3da;
+	color:#cde3da;
 }
 .white {
 	color: #fff;
+	background:#fff;
 }
 .gray-dark {
-	color: #666
+	color: #666;
+	background:#666;
 }
 .gray-light {
-	background: #eee
+	background: #eee;
+	color:#eee;
 }
+
