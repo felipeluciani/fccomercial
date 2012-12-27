@@ -5,7 +5,18 @@
  */
 ?>
 
+
+
 <footer class="footer aligncenter clearfix green-light-bg">
+    <article id="footer_patrocinadores" class="gray-light-bg gray-dark">
+        <ul >
+          <li> <a href=""><img src="">1 </a> </li>
+          <li> <a href=""><img src=""> 2 </a> </li>
+          <li> <a href=""><img src=""> 3 </a> </li>
+          <li> <a href=""><img src=""> 4 </a> </li>
+          <li> <a href=""><img src="">  5</a> </li>
+        </ul>
+      </article>
   
   <div class="alignleft dark-gray" id="footer_sitemap">
     <ul>

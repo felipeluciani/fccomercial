@@ -11,7 +11,13 @@
   <section>
     <?php get_search_form(); ?>
   </section>
+  
 
+  
+  <div id="aside_carousel"> 
+  	<?php echo do_shortcode('[jj-ngg-jquery-cycle  template="carousel"   width="213" height="353" order="random" timeout="7000" gallery="aside_carousel"]'); ?> 
+    
+   </div>
   <!-- Author information is disabled per default. Uncomment and fill in your details if you want to use it.
   <section>
     <h2>Author</h2>
@@ -49,6 +55,7 @@
 
   </section>
   <?php }?>
+  
   
   <nav role="navigation">
     <?php wp_list_pages('title_li=<h2>Pages</h2>' ); ?>

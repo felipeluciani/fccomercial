@@ -11,7 +11,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-
+		
         <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
            Remove this if you use the .htaccess -->
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -24,7 +24,8 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+	    
+        
         <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"] . "html5-boilerplate/css/normalize.css") ?>
         <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"] . "html5-boilerplate/css/main.css") ?>
 
@@ -37,6 +38,8 @@
         <!-- Wordpress Head Items -->
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
+
+		<?php wp_enqueue_script("jquery"); ?>
         <?php wp_head(); ?>
 
     </head>
